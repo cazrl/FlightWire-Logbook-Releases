@@ -6,16 +6,21 @@ This repository distributes application downloads and release notes. Application
 
 ## Download
 
-Open [Releases](https://github.com/cazrl/FlightWire-Logbook-Releases/releases) and choose the Windows x64 ZIP. Close Logbook, extract the complete archive and run its `FlightWire.Logbook.exe`. The current beta is **0.70.2**. The application is self-contained; Microsoft Edge WebView2 Runtime is required for maps, SimBrief and PDF views.
+The current public beta is **[0.70.3](https://github.com/cazrl/FlightWire-Logbook-Releases/releases/tag/v0.70.3)**. Download its Windows x64 ZIP, close Logbook, extract the complete archive and run `FlightWire.Logbook.exe`.
 
-These early public betas are unsigned, retaining their original Private-channel filenames and metadata. Installation is manual until signed releases are available; the first signed release also requires manual installation.
+The application is self-contained; Microsoft Edge WebView2 Runtime is required for maps, SimBrief and PDF views. All currently implemented Logbook features are free without a key.
 
-- 0.70.0 uses the old private update URL: download the new ZIP manually.
-- 0.70.1 can find newer releases with **Settings > Check for Logbook updates**.
-- 0.70.2 adds a quiet startup check and a green version badge when a subsequent newer release is available. Clicking the badge opens the update window. No recurring polling or automatic downloads are performed.
+This beta is **unsigned** and Windows may display an unknown-publisher warning. Installation and updates are manual until signed releases are available. The first signed release also requires manual installation. A SHA-256 checksum accompanies each ZIP.
 
-See release notes for validation and known limitations. The archive contains getting-started guidance, privacy information, third-party notices and aircraft model source materials. Keep a backup of your flight data before updating.
+## Updating
 
-[FlightWire website](https://www.flightwire.org/) · [Privacy](https://www.flightwire.org/privacy.html)
+- **0.70.0** uses an older private update-feed URL: download the new ZIP manually.
+- **0.70.1** can find newer releases with **Settings > Check for Logbook updates**.
+- **0.70.2 and later** check once after startup and show a green version badge when a newer release is available. Clicking the badge opens the update window. There is no recurring update polling or automatic download.
+- **0.70.3** introduces the explicit PUBLIC BETA label and `public-beta` package filename. It continues to discover beta releases here.
+
+See the release notes for validation and known limitations. The archive contains getting-started guidance, beta instructions, privacy information, third-party notices and aircraft model source materials. Keep a backup of your flight data before updating.
+
+[All releases](https://github.com/cazrl/FlightWire-Logbook-Releases/releases) · [FlightWire website](https://www.flightwire.org/) · [Privacy](https://www.flightwire.org/privacy.html)
 
 For flight simulation and information only. Not an approved real-world pilot logbook.
